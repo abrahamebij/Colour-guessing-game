@@ -1,0 +1,116 @@
+body{
+  background: #232222;
+  margin: 0;
+  font-family: Verdana , cursive;
+}
+h1{
+  text-align: center;
+  color: white;
+  background: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 150%;
+  padding: 10px 0;
+}
+button{
+  border: none;
+  background: none;
+  font-weight: 700;
+  height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: steelblue;
+  font-size: inherit;
+  transition: all .3s;
+  outline: none;
+}
+button:hover{
+  color: white;
+  background: steelblue;
+}
+a{
+  color: white;
+  font-weight: 900;
+}
+a:hover{
+  text-decoration: none;
+}
+.square{
+  background: transparent;
+  width: 30%;
+  padding-top: 30%;
+  float: right;
+  margin: 1.6%;
+  border-radius: 15px;
+  transition: background .5s;
+  -moz-transition: background .5s;
+  -webkit-transition: background .5s;
+  -o-transition: background .5s;
+}
+.selected{
+  color: white;
+  background: steelblue;
+}
+.footer{
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  width: 100%;
+  font-size: 15px;
+  transform: translateY(30px);
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  background: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container{
+  max-width: 600px;
+  margin: 20px auto;
+}
+#stripe{
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: #616596;
+}
+#colorDisplay{
+  font-size: 160%;
+  font-weight: 900;
+}
+#message{
+  display: inline-block;
+  width: 20%;
+  color: black;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 359px) {
+  button{
+    font-size: 10px;
+  }
+  #message{
+    font-size: 11px;
+  }
+  h1{
+    font-size: 80%;
+  }
+  .footer{
+    font-size: 10px;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 570px) {
+  h1{
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 569px) {
+  .footer{
+    font-size: 20px;
+  }
+}
