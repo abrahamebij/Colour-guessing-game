@@ -4,4 +4,4 @@ This is a colour guessing which will help most web developers who don't know the
 It built with HTMl, CSS and Vanilla JS.
 
 ## Demo 
-https://ademola1235.github.io/colour-guessing-game
+https://ademola1235.github.io/Colour-guessing-game/
